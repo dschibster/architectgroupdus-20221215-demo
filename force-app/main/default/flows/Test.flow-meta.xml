@@ -7,6 +7,9 @@
         <locationY>455</locationY>
         <actionName>RollupFlowBulkProcessor</actionName>
         <actionType>apex</actionType>
+        <connector>
+            <targetReference>Process_Rollups</targetReference>
+        </connector>
         <dataTypeMappings>
             <typeName>T__oldRecordsToRollup</typeName>
             <typeValue>Account</typeValue>
@@ -35,6 +38,15 @@
             </value>
         </inputParameters>
         <storeOutputAutomatically>true</storeOutputAutomatically>
+    </actionCalls>
+    <actionCalls>
+        <name>Process_Rollups</name>
+        <label>Process Rollups</label>
+        <locationX>176</locationX>
+        <locationY>575</locationY>
+        <actionName>RollupFlowBulkSaver</actionName>
+        <actionType>apex</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
     </actionCalls>
     <apiVersion>56.0</apiVersion>
     <assignments>
