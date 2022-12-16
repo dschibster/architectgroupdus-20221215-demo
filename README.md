@@ -1,3 +1,11 @@
+# What does this repo contain?
+
+This repo contains the metadata I used in my Scratch Org for my Architect Group Düsseldorf talk on 2022-12-15. In this repo I show example use cases for the packages I discussed:
+
+* Nebula Logger (https://github.com/jongpie/NebulaLogger)
+* Apex Rollup (https://github.com/jamessimone/apex-rollup)
+* SFDX Batch Orchestrator (https://github.com/dschibster/sfdx-batch-orchestrator)
+
 # Script to get started with packages + test metadata
 
 ```bash
